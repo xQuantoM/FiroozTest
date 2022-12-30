@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<link rel="stylesheet" href="css/signup.css">
+<meta charset="utf-8">
+<title>SignUp</title>
+</head>
+
+<body dir="rtl">
+<script src="java/signup.js"></script>
+        <!-- LOGIN MODULE -->
+        <div class="login">
+            <div class="wrap">
+                <!-- TOGGLE -->
+                <div id="toggle-wrap">
+                    <div id="toggle-terms">
+                        <div id="cross">
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- TERMS -->
+                <div class="terms">
+                    <h2>قوانین مدرسه فیروز بهرام</h2>
+                    <h3> اولویت ما ایجاد فضای مناسب و امن برای تولید کنندگان با هر نظرو عقیده ای می باشد احترام گزاشتن به هر دین و عقیده ای بسیار زیبا و قابل احترام میباشد و رعایت نکردن ان موجب ازار و ازیت همگان میشود</h3><h3>
+ویدیو هایه واطلاعات این سایت دارای حق نشر میباشد برایه احترام به تولید کنندگان ان و امن بودن فضایه کاری ما میباشد و رعایت قوانین اولویت ما میباشد
+                </h3>
+
+                </div>
+
+                <!-- RECOVERY -->
+              <div class="recovery">
+                    <h2>فراموشی رمز عبور</h2>
+                    <p>Enter either the <strong>email address</strong> or <strong>username</strong> on the account and <strong>click Submit</strong></p>
+                    <p>We'll email instructions on how to reset your password.</p>
+                    <form class="recovery-form" action="" method="post">
+                        <input type="text" class="input" id="user_recover" placeholder="Enter Email or Username Here">
+                        <input type="submit" class="button" value="Submit">
+                    </form>
+                    <p class="mssg">An email has been sent to you with further instructions.</p>
+                </div>
+
+                <!-- SLIDER -->
+                <div class="content">
+                    <!-- LOGO -->
+
+                    <!-- SLIDESHOW -->
+	                    <div id="slideshow">
+                        <div class="one">
+                            <h2><span></span></h2>
+                            
+                        </div>
+
+                    </div>
+                </div>
+                <!-- LOGIN FORM -->
+                <div class="user">
+                    <!-- ACTIONS
+                    <div class="actions">
+                        <a class="help" href="#signup-tab-content">Sign Up</a><a class="faq" href="#login-tab-content">Login</a>
+                    </div>
+                    -->
+                                        <div class="logo">
+                        <a href="../index.html"><img src="Images/Logo.PNG" alt="home"></a>
+                    </div>
+                    <div class="form-wrap">
+                        <!-- TABS -->
+                    	<div class="tabs">
+                            <h3 class="login-tab"><a class="log-in active" href="#login-tab-content"><span>وارد شدن</span></a></h3>
+                    		<h3 class="signup-tab"><a class="sign-up" href="#signup-tab-content"><span>ثبت نام</span></a></h3>
+                    	</div>
+                        <!-- TABS CONTENT -->
+                    	<div class="tabs-content">
+                            <!-- TABS CONTENT LOGIN -->
+                    		<div id="login-tab-content" class="active">
+                    			<form class="login-form" action="" method="post">
+                    				<input type="text" class="input" id="user_login" autocomplete="off" placeholder="نام کاربری">
+                    				<input type="password" class="input" id="user_pass" autocomplete="off" placeholder="رمز عبور">
+                    				<input type="checkbox" class="checkbox" checked id="remember_me">
+                    				<label for="remember_me">مرا به خاطر بسپار</label>
+                    				<input type="submit" class="button" value="وارد شدن">
+                    			</form>
+                    			<div class="help-action">
+                    				<p><i class="fa fa-arrow-left" aria-hidden="true"></i><a class="forgot" href="#">رمز عبورتان را فراموش کرده اید؟</a></p>
+                    			</div>
+                    		</div>
+                            <!-- TABS CONTENT SIGNUP -->
+                    		<div id="signup-tab-content">
+                    			<form class="signup-form" action="" method="post">
+                    				<input type="email" class="input" id="user_email" autocomplete="off" placeholder="ایمیل">
+                    				<input type="text" class="input" id="user_name" autocomplete="off" placeholder="تام کاربری">
+                    				<input type="password" class="input" id="user_pass" autocomplete="off" placeholder="رمز عبور">
+                    				<input type="submit" class="button" value="ثبت نام">
+                    			</form>
+                    			<div class="help-action">
+                    				<p>شما با ثبت نام کردن با قوانین این سایت موافقت میکنید</p>
+                    				<p><i class="fa fa-arrow-left" aria-hidden="true"></i><a class="agree" href="#">قوانین</a></p>
+                    			</div>
+                    		</div>
+                    	</div>
+                	</div>
+              </div>
+            </div>
+        </div>
+
+</body>
+</html>
